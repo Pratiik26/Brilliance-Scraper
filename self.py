@@ -843,7 +843,5 @@ if __name__ == "__main__":
         all_df = all_df.drop_duplicates(subset=["ID"])
         all_df.to_csv(ALL_CSV, index=False)
         print(f"Saved {len(all_df)} total diamonds -> {ALL_CSV}")
-        #  all_df = pd.concat(frames, ignore_index=True)
-                # all_df = all_df.drop_duplicates(subset=["ID"])
                 
         
